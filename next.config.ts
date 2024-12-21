@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   basePath: "/winter-boba",
   /* config options here */
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         hostname: 'contribute.hackclub.com',
